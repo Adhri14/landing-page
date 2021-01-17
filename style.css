@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f9fc;
+}
+.navbar-brand, .nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-link {
+  text-align: center;
+ }
+ .nav-link.active {
+   color: #007bff;
+ }
+ .bg-light {
+   background: transparent !important;
+   transition: .5s ease;
+ }
+ .bg-light.sticky {
+   background: rgb(255, 255, 255) !important;
+   box-shadow: -1px -7px 20px 0px #888;
+ }
+ .sticky .navbar-brand {
+   color: #6f42c1 !important;
+ }
+ .sticky .nav-link {
+   color: #888 !important;
+ }
+ .masthead {
+   height: 100vh;
+   background: url(img/bg-masthead.png) !important;
+   background-size: cover !important;
+   background-repeat: no-repeat;
+ }
+ .masthead h1 {
+   margin-top: 150px;
+ }
+ .features-icons-item {
+   padding: 2.5rem 1.5rem;
+   transition: .5s ease;
+ }
+ .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem !important;
+ }
+.img-area {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: static;
+}
+
+.carousel-indicators li {
+  background-color: #6f42c1 !important;
+}
+
+ @media (min-width: 980px) {
+  .navbar-brand, .nav-link {
+    margin-right: 40px;
+    transition: .5s ease;
+  }
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  .masthead h1 {
+    margin-top: inherit;
+  }
+  .features-icons-item:hover {
+    box-shadow: 0px 0px 20px 0px #888;
+  }
+ }
